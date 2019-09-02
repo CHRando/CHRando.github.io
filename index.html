@@ -1,0 +1,67 @@
+<head>
+	<title>CHRandomizer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="CHR.js"></script>
+</head>
+<body>
+	<table>
+		<tr>
+			<td style="vertical-align:top">
+				<table>
+					<!--<tr>
+						<td>
+							<input id="videoInput" type="file" accept="video/*" multiple/>	
+						</td>
+					</tr>-->
+					<tr>
+						<td>
+							<input id="xmlInput" type="file" accept=".xml"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input id="localButton" type="button" Value="Local XML">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<table>
+								<tr>
+									<td><input id="assembleButton" type="button" Value="Assemble Playlist"></td>
+								</tr>
+								<tr>
+									<td>Rounds: <input id="assembleRounds" min="1" max ="100" type="number" Value="10"></td>
+								</tr>
+								<tr>
+									<td>Difficulty: Down: <input id="assembleDiffDown" min="0" max ="10" type="number" Value="1"> Up: <input id="assembleDiffUp" min="0" max ="10" type="number" Value="3"></td>
+								</tr>
+							</table>	
+								
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input id="shuffleButton" type="button" Value="Shuffle Playlist">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input id="chkCorruption" type ="checkbox" /><label for="chkCorruption">Enable Corruptions</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input id="startButton" type="button" Value="Start">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p></p>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td style="vertical-align:top"><video width="800"  controls autoplay></video></td>
+		</tr>
+	</table>	
+</body>

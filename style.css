@@ -1,0 +1,23 @@
+.CollapseButton{
+	padding-top:3px;	
+	border: none;
+	background-color: #ffffff;
+	text-align: left;       
+	text-transform:none;
+	cursor: pointer;
+	width: 100%;
+}
+.CollapseButton:after {
+	  content: '\02795'; /* Unicode character for "plus" sign (+) */
+	  float: Left;
+}
+.CollapseContent 
+{
+	background-image: linear-gradient(#ffffff, #dfdfdf);
+	margin-left: 10px;
+	border-left: solid 1px;
+	padding: 0 10px 0 30px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
