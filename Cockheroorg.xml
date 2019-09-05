@@ -8,6 +8,10 @@
 		<Round Name="Guardians of the Gate" Start="14:32" End="22:37" />
 		<Round Name="Calling the Valkyries Transition" Start="23:04" End="24:18" />
 		<Round Name="Calling the Valkyries" Start="24:18" End="28:45" />
+		<Round Name="Defeat the Guardians Kora" Start="29:47" End="33:40" />
+		<Round Name="Defeat the Guardians Persephone" Start="33:40" End="38:41" />
+		<Round Name="Go to the Valkyries" Start="41:10" End="45:28" />
+		<Round Name="Go to the Valkyries" Start="41:10" End="45:28" />
 		
 		<Round Name="Oblivion" Start="1:42:18" End="1:48:25" />
 		<Round Name="Oblivion - Outlast the Heroes" Start="1:48:25" End="1:53:10" />
@@ -19,6 +23,15 @@
 		<Corruption Start="38:24" End="38:51" />
 	</Video>
 	<Video Name="Megaflux" Filename="https://cockhero.org/media/videos/mp4/532_hd.mp4" Remote="1">
+		<Round Name="Intro" Start="0:20" End="3:42" />
+		<Round Name="Party Animal" Start="3:56" End="8:35" />
+		<Round Name="undefined" Start="8:44" End="10:35" />
+		<Round Name="undefined" Start="10:47" End="14:01" />
+		<Round Name="undefined" Start="14:01" End="20:30" />
+		<Round Name="undefined" Start="20:30" End="22:46" />
+		<Round Name="Edge Round" Start="22:46" End="27:40" />
+		<Round Name="undefined" Start="22:46" End="27:40" />		
+		<Round Name="undefined" Start="29:19" End="36:52" />
 		
 	</Video>
 
